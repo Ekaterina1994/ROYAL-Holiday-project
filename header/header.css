@@ -194,23 +194,63 @@ label {
 
 
 /* Смартфоны */
-@media (min-width: 320px) {
+@media (max-width: 480px) {
   header {display: none;}
   .wrapper {display: block; width:100%;}
 }
 
 /* iPads*/
-@media (min-width: 780px) and (max-width: 1223px){
-  header {display: flex; width: 100%;}
-  .leftSideHeader {flex-flow: column; width: 40%;  height: 5vh; line-height: 1.5;}
-  .rightSideHeader {flex-flow: column; width: 40%; height: 5vh; line-height: 1.5;}
-  .logoHeader {width: 20%; margin-top: 1%;}
-  .imgAndPhones {display: none;}
-  .wrapper {display: none;}
+@media (min-width: 481px) and (max-width: 1223px){
+  header {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+  .leftSideHeader {
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+    height: 10vh;
+    line-height: 1.5;
+}
+  .rightSideHeader {
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+    height: 10vh;
+    line-height: 1.5;
+}
+  .logoHeader {
+    width: 20%;
+}
+
+  .logoHeader img {
+    Width: 100%;
+}
+
+  .imgAndPhones {
+    display: none;
+}
+  .wrapper {
+    display: none;
+}
+  .links {
+    margin-top: 0;
+    margin: 2%;
+}
 }
 
 /* настольные компьютеры и ноутбуки */
-@media (min-width: 1224px) {
-  header {display: flex; width: 1220px;}
-  .wrapper {display: none;}
+@media (min-width: 1224px) and (max-width: 10000px) {
+  header {
+    display: flex;
+    width: 1220px;
+}
+  .wrapper {
+    display: none;
+}
 }
