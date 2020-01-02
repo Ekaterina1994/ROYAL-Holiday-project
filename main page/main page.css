@@ -1,0 +1,540 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.carusel1 {
+  display: flex;
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+}
+
+.rubric {
+   width: 90%;
+   position: relative;
+   overflow: hidden;
+   font-size: 14px;
+   font-weight: normal;
+   text-align: center;
+   margin-top: 2em;
+   margin-left: auto;
+   margin-right: auto;
+ }
+.rubric  > span {
+   display: inline-block;
+   margin: 0 .4em;
+ }
+.rubric  > span:before,
+.rubric  > span:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   border-top: 1px solid black;
+   margin-top: .6em;
+ }
+.rubric  > span:before {
+   margin-left: -102%;
+ }
+.rubric  > span:after {
+   margin-left: 2%;
+ }
+
+.bodyMainPage {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carusel1 {
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+ .popularTours {
+   display: flex;
+   flex-flow: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 2%;
+   margin-left: auto;
+   margin-right: auto;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   align-self: center;
+ }
+
+ .popularToursItem {
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 25%;
+   justify-content: center;
+ }
+
+ .popularToursItem img {
+   width: 320px;
+   align-items: center;
+ }
+
+.aboutRoyal {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.aboutRoyalpic {
+  margin: 2%;
+  width: 320px;
+}
+
+.aboutRoyaltext {
+  margin: 2%;
+  width: 60%;
+  font-size: 12px;
+}
+
+.theBestTours {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.theBestToursItem {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 25%;
+  margin: 2%;
+  justify-content: space-around;
+}
+
+.theBestToursItem p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.theBestToursItem img {
+  width: 320px;
+}
+
+.button {
+  height: 40px;
+  width: 40%;
+  align-self: center;
+  margin-top: 2%;
+  border: none;
+  border-radius: 7px;
+}
+
+.button:hover {
+  background-color: lightblue;
+  outline: none;
+}
+
+.caruselTheBestTours {
+  display: flex;
+  flex-flow: row;
+  width: 96%;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 3px;
+  margin:2%;
+}
+
+.whyWe {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  margin-top: 2%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.whyWeItem {
+  display: flex;
+  flex-flow:column;
+  flex-basis: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.whyWeItem img {
+  width: 320px;
+}
+
+.whyWeItem p {
+  font-size: 10pt;
+  text-align: center;
+}
+
+.whyWeBigImg {
+  display: flex;
+  margin:2%;
+  width: 96%;
+  height: 50vh;
+}
+
+.news {
+  display: flex;
+  flex-flow: row;
+  margin-top: 2%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.newsItem {
+  display: flex;
+  flex-flow:column;
+  flex-basis: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.newsItem img {
+  width: 320px;
+}
+
+.newsItem p {
+  font-size: 10pt;
+  text-align: center;
+}
+
+.wantToRest {
+  display: flex;
+  flex-flow: column;
+  background-color: grey;
+
+}
+
+.form {
+  margin-left: 12%;
+  margin-bottom: -1%;
+  margin-top: 2%;
+  font-size: 14px;
+  text-align: left;
+  line-height: 0.1;
+  color: white;
+}
+
+.rubric2 {
+   position: relative;
+   overflow: hidden;
+   font-size: 14px;
+   font-weight: normal;
+   text-align: center;
+   margin-top: 2em;
+   margin-left: -52%;
+   color: white;
+ }
+.rubric2  > span {
+   display: inline-block;
+   margin: 0 .4em;
+   padding-bottom: 0;
+   color: white;
+   line-height: 0.1;
+ }
+.rubric2  > span:before,
+.rubric2  > span:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   border-top: 1px solid white;
+
+ }
+.rubric2  > span:before {
+   margin-left: -102%;
+ }
+.rubric2  > span:after {
+   margin-left: 2%;
+ }
+
+.namePhonePeople {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.namePhonePeopleItem {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  width: 250px;
+  padding: 0 5px;
+}
+
+.messageAndButton {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.message {
+  border-radius: 5px;
+  background-color: white;
+  height: 70px;
+  width: 530px;
+  padding: 0 5px;
+}
+
+.buttonForForm {
+  border-radius: 5px;
+  background-color: orange;
+  height: 30px;
+  width: 250px;
+  padding: 0 5px;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+.checkbox {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.textForCheckbox {
+  font-size: 7pt;
+}
+
+.align {
+  margin-top: 3%;
+}
+
+.beforeReview {
+  font-size: 12px;
+  text-align: center;
+  line-height: 0.5;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  width: 100%;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.reviewItem {
+  display: flex;
+  flex-flow: row;
+  width: 30%;
+  border: 1px solid lightblue;
+  flex-wrap: wrap;
+  border-radius: 5px;
+
+}
+
+.reviewItem img {
+  width: 80px;
+  height: 80px;
+  margin-top: -2%;
+  border-radius: 3px;
+  box-shadow: 0 0 10px grey;
+}
+
+.reviewItem p {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.textReview {
+  padding: 20px;
+  background-color: lightblue;
+  margin: 5%;
+  font-size: 14px;
+}
+
+.buttonAllReviews {
+  display: block;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 40px;
+  margin-top: 2%;
+  border: none;
+}
+
+.buttonAllReviews:hover {
+  background-color: orange;
+}
+
+.mapImg {
+  display: flex;
+  height: 50vh;
+  margin: 2%;
+}
+
+.mapButton {
+  display: block;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 40px;
+}
+
+.howToPay {
+  display: flex;
+  width: 96%;
+  height: 50vh;
+  margin: 2%;
+}
+
+/* Смартфоны */
+@media (max-width: 480px) {
+  header {display: none;}
+  .wrapper {display: block; width:100%;}
+  .popularToursItem {
+    margin:2%;
+}
+
+  .aboutRoyal {
+    justify-content: space-around;
+}
+
+  .aboutRoyaltext {
+    text-align: center;
+}
+
+  .namePhonePeopleItem {
+    margin-bottom: 3%;
+}
+
+  .buttonForForm {
+    margin-top: 3%;
+  }
+
+  .reviewItem {
+    width: 400px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .caruselTheBestTours {
+    flex-wrap: wrap;
+  }
+
+  .message{
+    width: 250px;
+  }
+
+}
+
+/* iPads*/
+@media (min-width: 481px) and (max-width: 1223px){
+  header {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+  .leftSideHeader {
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+    height: 10vh;
+    line-height: 1.5;
+}
+  .rightSideHeader {
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+    height: 10vh;
+    line-height: 1.5;
+}
+  .logoHeader {
+    width: 20%;
+}
+
+  .logoHeader img {
+    Width: 100%;
+}
+
+  .imgAndPhones {
+    display: none;
+}
+  .wrapper {
+    display: none;
+}
+  .links {
+    margin-top: 0;
+    margin: 2%;
+}
+
+  .popularToursItem {
+    margin:2%;
+}
+
+  .aboutRoyal {
+    justify-content: space-around;
+}
+
+  .aboutRoyaltext {
+    text-align: center;
+}
+
+  .namePhonePeopleItem {
+    margin-bottom: 3%;
+}
+
+  .buttonForForm {
+    margin-top: 3%;
+  }
+
+  .reviewItem {
+    width: 400px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .caruselTheBestTours {
+    flex-wrap: wrap;
+  }
+}
+
+/* настольные компьютеры и ноутбуки */
+@media (min-width: 1224px) and (max-width: 10000px) {
+  .bodyMainPage {
+    max-width: 1220px;
+}
+  .wrapper {
+    display: none;
+}
+}
